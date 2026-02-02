@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Elite Plumbing Solutions - 24/7 Emergency Service Available | Call Now for Fast Response">
+  <title>Contact Us | Elite Plumbing Solutions</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🔧</div>
+        <span>Elite Plumbing</span>
+      </a>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="mobile-toggle">☰</button>
+    </nav>
+  </header>
+
+  <!-- Page Header -->
+  <section class="hero" style="padding: 5rem 2rem;">
+    <div class="hero-content">
+      <h1>Get In Touch</h1>
+      <p class="hero-subtitle">We're here to help 24/7 • Fast response times • Free estimates on most services</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        
+        <!-- Contact Information -->
+        <div class="contact-info">
+          <div class="info-card">
+            <div class="info-icon">📞</div>
+            <div class="info-content">
+              <h4>Call Us Now</h4>
+              <p><strong>24/7 Emergency Line:</strong></p>
+              <p><a href="tel:+15555551234">(555) 555-1234</a></p>
+              <p style="margin-top: 0.5rem; font-size: 1rem;">Average response time: Under 60 minutes</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">📧</div>
+            <div class="info-content">
+              <h4>Email Us</h4>
+              <p><a href="mailto:info@eliteplumbing.com">info@eliteplumbing.com</a></p>
+              <p style="margin-top: 0.5rem; font-size: 1rem;">We respond within 2-4 hours during business hours</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">📍</div>
+            <div class="info-content">
+              <h4>Service Area</h4>
+              <p>Greater Metro Area & Surrounding Communities</p>
+              <p style="margin-top: 0.5rem; font-size: 1rem;">We serve locations within 50 miles of downtown</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">🕐</div>
+            <div class="info-content">
+              <h4>Business Hours</h4>
+              <p><strong>Monday - Friday:</strong> 7:00 AM - 8:00 PM</p>
+              <p><strong>Saturday - Sunday:</strong> 8:00 AM - 6:00 PM</p>
+              <p style="margin-top: 0.5rem;"><strong style="color: var(--aqua);">Emergency Service: 24/7/365</strong></p>
+            </div>
+          </div>
+
+          <div style="background: linear-gradient(135deg, var(--navy), var(--navy-light)); color: white; padding: 2rem; border-radius: 12px; text-align: center;">
+            <h4 style="color: white; margin-bottom: 1rem; font-size: 1.5rem;">Need Immediate Help?</h4>
+            <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem;">For plumbing emergencies, call us right now. Our team is standing by.</p>
+            <a href="tel:+15555551234" class="btn btn-primary" style="display: inline-block;">📞 Emergency: (555) 555-1234</a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <h3 style="margin-bottom: 1.5rem; color: var(--navy);">Request Service Online</h3>
+          <p style="color: var(--text-gray); margin-bottom: 2rem;">Fill out the form below and we'll contact you within 24 hours to schedule your service appointment.</p>
+          
+          <form id="contact-form" action="https://formspree.io/f/xqelgewb" method="POST">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required placeholder="John Smith">
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" required placeholder="(555) 555-1234">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required placeholder="john@example.com">
+            </div>
+
+            <div class="form-group">
+              <label for="service">Service Needed *</label>
+              <select id="service" name="service" required>
+                <option value="">Select a service...</option>
+                <option value="emergency">Emergency Plumbing</option>
+                <option value="leak-repair">Leak Detection & Repair</option>
+                <option value="drain-cleaning">Drain Cleaning</option>
+                <option value="water-heater">Water Heater Service</option>
+                <option value="sewer-pipe">Sewer/Pipe Service</option>
+                <option value="fixture-install">Fixture Installation</option>
+                <option value="inspection">General Inspection</option>
+                <option value="maintenance">Preventive Maintenance</option>
+                <option value="other">Other (describe in message)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="property-type">Property Type</label>
+              <select id="property-type" name="property-type">
+                <option value="residential">Residential</option>
+                <option value="commercial">Commercial</option>
+                <option value="rental">Rental Property</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Description of Issue *</label>
+              <textarea id="message" name="message" required placeholder="Please describe your plumbing issue or service needs in detail..."></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="preferred-contact">Preferred Contact Method</label>
+              <select id="preferred-contact" name="preferred-contact">
+                <option value="phone">Phone Call</option>
+                <option value="text">Text Message</option>
+                <option value="email">Email</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="urgency">Urgency Level</label>
+              <select id="urgency" name="urgency">
+                <option value="emergency">Emergency - ASAP</option>
+                <option value="urgent">Urgent - Within 24 Hours</option>
+                <option value="soon">Soon - Within a Few Days</option>
+                <option value="flexible">Flexible - Schedule at Convenience</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary form-submit">Send Request</button>
+            
+            <p style="font-size: 0.95rem; color: var(--text-gray); margin-top: 1.5rem; text-align: center;">
+              By submitting this form, you agree to be contacted by Elite Plumbing Solutions regarding your service request.
+            </p>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Additional Information -->
+      <div style="margin-top: 5rem; background: var(--white); padding: 3rem; border-radius: 12px; box-shadow: var(--shadow-sm);">
+        <h3 style="text-align: center; margin-bottom: 2rem; color: var(--navy);">What Happens After You Contact Us?</h3>
+        
+        <div class="features-grid">
+          <div class="feature-item">
+            <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--aqua), var(--aqua-dark)); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2rem; margin: 0 auto 1rem; color: white; font-weight: bold;">1</div>
+            <h4>We Contact You</h4>
+            <p>Our team reviews your request and contacts you within 2-24 hours to discuss your needs and schedule a convenient appointment time.</p>
+          </div>
+
+          <div class="feature-item">
+            <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--aqua), var(--aqua-dark)); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2rem; margin: 0 auto 1rem; color: white; font-weight: bold;">2</div>
+            <h4>Technician Arrives</h4>
+            <p>A licensed technician arrives at your scheduled time with a fully stocked truck. We'll call ahead to let you know we're on our way.</p>
+          </div>
+
+          <div class="feature-item">
+            <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--aqua), var(--aqua-dark)); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2rem; margin: 0 auto 1rem; color: white; font-weight: bold;">3</div>
+            <h4>Diagnosis & Quote</h4>
+            <p>We thoroughly diagnose the issue and provide a clear, written estimate before beginning any work. No surprises, no hidden fees.</p>
+          </div>
+
+          <div class="feature-item">
+            <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--aqua), var(--aqua-dark)); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2rem; margin: 0 auto 1rem; color: white; font-weight: bold;">4</div>
+            <h4>Professional Repair</h4>
+            <p>With your approval, we complete the work efficiently using quality parts. We test everything thoroughly and clean up the work area.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ Section -->
+      <div style="margin-top: 5rem;">
+        <h3 style="text-align: center; margin-bottom: 3rem; color: var(--navy); font-size: 2rem;">Frequently Asked Questions</h3>
+        
+        <div style="display: grid; gap: 1.5rem; max-width: 900px; margin: 0 auto;">
+          <div style="background: var(--white); padding: 2rem; border-radius: 12px; box-shadow: var(--shadow-sm);">
+            <h4 style="color: var(--navy); margin-bottom: 1rem;">Do you provide free estimates?</h4>
+            <p style="color: var(--text-gray); margin: 0;">Yes! We offer free estimates for most services. Our technician will assess your situation and provide a clear, written quote before starting any work.</p>
+          </div>
+
+          <div style="background: var(--white); padding: 2rem; border-radius: 12px; box-shadow: var(--shadow-sm);">
+            <h4 style="color: var(--navy); margin-bottom: 1rem;">What forms of payment do you accept?</h4>
+            <p style="color: var(--text-gray); margin: 0;">We accept all major credit cards, checks, and cash. We also offer financing options for larger projects.</p>
+          </div>
+
+          <div style="background: var(--white); padding: 2rem; border-radius: 12px; box-shadow: var(--shadow-sm);">
+            <h4 style="color: var(--navy); margin-bottom: 1rem;">How quickly can you respond to emergencies?</h4>
+            <p style="color: var(--text-gray); margin: 0;">Our emergency team typically arrives within 60 minutes or less. We're available 24/7/365 for urgent plumbing issues.</p>
+          </div>
+
+          <div style="background: var(--white); padding: 2rem; border-radius: 12px; box-shadow: var(--shadow-sm);">
+            <h4 style="color: var(--navy); margin-bottom: 1rem;">Are your technicians licensed and insured?</h4>
+            <p style="color: var(--text-gray); margin: 0;">Absolutely. All our technicians are fully licensed, bonded, and insured. We carry $2,000,000 in liability coverage for your protection.</p>
+          </div>
+
+          <div style="background: var(--white); padding: 2rem; border-radius: 12px; box-shadow: var(--shadow-sm);">
+            <h4 style="color: var(--navy); margin-bottom: 1rem;">Do you offer warranties on your work?</h4>
+            <p style="color: var(--text-gray); margin: 0;">Yes! All our work comes with a comprehensive warranty. We also honor manufacturer warranties on parts and equipment we install.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="cta-content">
+      <h2>Don't Wait - Call Now!</h2>
+      <p>Our friendly team is ready to help with your plumbing needs.</p>
+      <a href="tel:+15555551234" class="cta-phone">📞 (555) 555-1234</a>
+      <div class="hero-ctas">
+        <a href="services.html" class="btn btn-secondary">View Our Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Elite Plumbing Solutions</h4>
+        <p>Your trusted partner for all residential and commercial plumbing needs. Licensed, insured, and committed to excellence.</p>
+        <p style="margin-top: 1.5rem;">
+          <strong style="color: var(--aqua);">24/7 Emergency Service</strong><br>
+          (555) 555-1234
+        </p>
+      </div>
+
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="services.html">Our Services</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-section">
+        <h4>Services</h4>
+        <a href="services.html#emergency">Emergency Plumbing</a>
+        <a href="services.html#leaks">Leak Detection</a>
+        <a href="services.html#drains">Drain Cleaning</a>
+        <a href="services.html#water-heater">Water Heaters</a>
+        <a href="services.html#sewer">Sewer Services</a>
+      </div>
+
+      <div class="footer-section">
+        <h4>Service Area</h4>
+        <p>Proudly serving the greater metro area and surrounding communities within 50 miles.</p>
+        <p style="margin-top: 1rem;">
+          <strong>Hours:</strong><br>
+          Mon-Fri: 7 AM - 8 PM<br>
+          Sat-Sun: 8 AM - 6 PM<br>
+          Emergency: 24/7
+        </p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2024 Elite Plumbing Solutions. All rights reserved. | Licensed & Insured | License #PL-12345</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
